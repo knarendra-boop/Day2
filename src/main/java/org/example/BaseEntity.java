@@ -1,7 +1,7 @@
 package org.example;
 
 
-abstract class BaseEntity {
+public abstract class BaseEntity {
     int id;
     String createdAt;
     String updatedAt;
