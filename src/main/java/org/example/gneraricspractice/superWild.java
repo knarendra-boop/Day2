@@ -1,4 +1,4 @@
-package org.example.Genrics;
+package org.example.gneraricspractice;
 
 import java.util.ArrayList;
 import java.util.List;

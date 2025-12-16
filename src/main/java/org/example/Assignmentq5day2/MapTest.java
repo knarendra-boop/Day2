@@ -1,7 +1,7 @@
-package org.example;
+package org.example.Assignmentq5day2;
 
-
-import java.util.*;
+import java.util.HashMap;
+import java.util.TreeMap;
 
 public class MapTest {
     public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class MapTest {
         hm.put(20, "A");
         hm.put(5, "B");
         hm.put(15, "C");
+
 
         tm.put(20, "A");
         tm.put(5, "B");
@@ -24,5 +25,6 @@ public class MapTest {
         System.out.println(tm); // sorted order
     }
 }
+
 
 

@@ -1,4 +1,4 @@
-package org.example.Genrics;
+package org.example.gneraricspractice;
 
 public class MultipleValues <k,v>{
     k key;
@@ -24,11 +24,3 @@ public class MultipleValues <k,v>{
     }
 }
 
-class Multipleval {
-    public static void main(String[] args) {
-        MultipleValues <String, Integer> multi = new MultipleValues<>();
-        multi.setKey("narendra");
-        multi.setValue(1);
-        System.out.println(multi.getKey() + " " + multi.getValue());
-    }
-}

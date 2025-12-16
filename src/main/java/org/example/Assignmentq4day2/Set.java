@@ -1,12 +1,11 @@
-package org.example;
+package org.example.Assignmentq4day2;
 
-
-import java.util.*;
-
-public class SetTest {
+import java.util.HashSet;
+class Set {
     public static void main(String[] args) {
 
-        HashSet<String> set = new HashSet<>();
+
+HashSet<String> set = new HashSet<>();
 
         set.add("Apple");
         set.add("Banana");
@@ -16,5 +15,5 @@ public class SetTest {
 
         System.out.println(set); // Duplicate removed
         System.out.println("Size: " + set.size());
-    }
-}
+        }
+        }
