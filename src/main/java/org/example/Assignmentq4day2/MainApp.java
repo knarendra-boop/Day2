@@ -6,13 +6,11 @@ public class MainApp {
 
         InMemoryDataStore store = new InMemoryDataStore();
 
-        // users
         store.users.put(1L, new User(1L, "Alice"));
         store.users.put(2L, new User(2L, "Bob"));
 
         System.out.println(store.users.get(1L));
 
-        // transactions
         Transaction t1 = new Transaction("TXN1", 500);
         Transaction t2 = new Transaction("TXN2", 1000);
 
@@ -27,4 +25,3 @@ public class MainApp {
         }
     }
 }
-

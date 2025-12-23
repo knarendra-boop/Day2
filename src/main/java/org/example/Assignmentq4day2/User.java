@@ -1,10 +1,10 @@
 package org.example.Assignmentq4day2;
 
-public class User {
+class User {
     long id;
     String name;
 
-    public User(long id, String name) {
+    User(long id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -13,4 +13,3 @@ public class User {
         return id + " - " + name;
     }
 }
-

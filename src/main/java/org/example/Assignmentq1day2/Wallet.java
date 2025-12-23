@@ -39,15 +39,16 @@ public class Wallet implements Transactable, Auditable {
         }
     }
 
-    // ✅ ONLY EXTRA: main method
-    public static void main(String[] args) {
-        Wallet w1 = new Wallet();
-        Wallet w2 = new Wallet();
 
-        w1.credit(1000);
-        w1.debit(200);
-        w1.transfer(w2, 300);
+        public static void main(String[] args) {
+            Wallet w1 = new Wallet();
+            Wallet w2 = new Wallet();
 
-        w1.track();
+            w1.credit(1000);
+            w1.debit(200);
+            w1.transfer(w2, 300);
+
+            w1.track();
+        }
     }
-}
+

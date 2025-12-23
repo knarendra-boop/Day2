@@ -1,10 +1,10 @@
 package org.example.Assignmentq4day2;
 
- class Transaction {
+class Transaction {
     String reference;
     double amount;
 
-    public Transaction(String reference, double amount) {
+    Transaction(String reference, double amount) {
         this.reference = reference;
         this.amount = amount;
     }
